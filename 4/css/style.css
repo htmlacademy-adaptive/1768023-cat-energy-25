@@ -12,16 +12,6 @@
   src: url("../fonts/oswaldmedium.woff2") format("woff2"), url("../fonts/oswaldregular.woff") format("woff");
   font-display: swap;
 }
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 body {
   min-height: 100%;
   margin: 0;
@@ -32,6 +22,28 @@ body {
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.button-order {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #68b738;
+  display: block;
 }
 .menu-services-list {
   margin: 0;
@@ -221,6 +233,7 @@ body {
   line-height: 24px;
 }
 .results-list__results-description {
+  font-family: "Arial", sans-serif;
   font-size: 12px;
   line-height: 12px;
   color: #444444;
@@ -249,6 +262,7 @@ body {
   line-height: 36px;
   font-style: normal;
   font-weight: 400;
+  margin-top: 27px;
   margin-bottom: 49px;
 }
 .catalog {
@@ -261,12 +275,6 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: #222222;
-}
-.properties-list {
-  font-size: 12px;
-  line-height: 16px;
-  color: #444444;
-  margin-bottom: 13px;
 }
 .catalog__product-order {
   font-family: "Oswald", sans-serif;
@@ -304,6 +312,13 @@ body {
   color: #444444;
   background-color: #f2f2f2;
 }
+.properties-list {
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  color: #444444;
+  margin-bottom: 13px;
+}
 .other-product {
   margin-bottom: 75px;
 }
@@ -325,11 +340,6 @@ body {
   text-transform: uppercase;
   color: #222222;
 }
-.properties-other-product {
-  font-size: 14px;
-  line-height: 14px;
-  color: #444444;
-}
 .other-product__button {
   font-family: "Oswald", sans-serif;
   font-style: normal;
@@ -341,6 +351,11 @@ body {
   text-decoration: none;
   background-color: #68b738;
   display: block;
+}
+.properties-other-product {
+  font-size: 14px;
+  line-height: 14px;
+  color: #444444;
 }
 .gift {
   margin-bottom: 35px;
@@ -411,7 +426,6 @@ body {
   margin-bottom: 35px;
 }
 .comment-text__text {
-  font-family: "Oswald", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
